@@ -1,5 +1,5 @@
 ---
-- hosts: webservers 
+- hosts: 52.15.194.156 
   become: True
   vars:
     - http_port: 80
